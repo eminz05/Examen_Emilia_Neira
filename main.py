@@ -31,11 +31,11 @@ while True:
         print("Error. Debe ingresar un número entero.")
 
     if opc==1:
-        pass
+        fn.stock_editorial(editorial)
     elif opc==2:
-        pass
+        fn.buscar_por_precio(p_min, p_max)
     elif opc==3:
-        pass
+        fn.actualizar_precio(codigo, nuevo_precio)
     elif opc==4:
         print("Programa finalizado")
         break
