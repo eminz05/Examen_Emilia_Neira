@@ -1,1 +1,2 @@
-print("hola mundo")
+def stock_editorial(editorial):
+    
