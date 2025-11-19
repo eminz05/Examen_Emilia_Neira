@@ -1,4 +1,6 @@
 import funcion as fn
+
+#[título, autor, tipo, páginas, editorial, idioma]
 catalogo = {
  'BK001': ['El Quijote', 'Miguel de Cervantes', 'físico', 1200, 'Editorial Planeta', 'español'],
  'BK002': ['1984', 'George Orwell', 'digital', 328, 'Penguin', 'inglés'],
@@ -7,6 +9,7 @@ catalogo = {
  
 }
 
+#[precio, unidades_disponibles]
 inventario = {
  'BK001': [15990, 3],
  'BK002': [8990, 0],
@@ -34,7 +37,7 @@ while True:
     elif opc==3:
         pass
     elif opc==4:
-        print("Saliendo del sistema...")
+        print("Programa finalizado")
         break
     else:
-        print("Debe seleccionar una opción del 1 al 4!!")
+        print("Debe seleccionar una válida!!")
